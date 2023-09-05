@@ -49,7 +49,7 @@ const authenticateJwt = (req, res, next) => {
 };
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://suryamallampalli21:hjuajU8IQHobw5k6@cluster0.anegw6i.mongodb.net/course-app',{ useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://suryamallampalli21:<accesskey>@cluster0.anegw6i.mongodb.net/course-app',{ useNewUrlParser: true, useUnifiedTopology: true});
 
 app.post('/admin/signup', (req, res) => {
   const { username, password } = req.body;
