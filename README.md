@@ -21,7 +21,7 @@
 
   <ol>
         <li>Clone the repository to your local machine:</li>
-        <pre><code>git clone &lt;repository_url&gt;</code></pre>
+        <pre><code>git clone &lt;https://github.com/suryanikhil-mallampalli/courseApp&gt;</code></pre>
 
   <li>Install the project dependencies:</li>
         <pre><code>cd &lt;project_directory&gt;</code></pre>
